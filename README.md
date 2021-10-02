@@ -1,10 +1,4 @@
-- 👋 Hi, I’m @mirikan0527
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-mirikan0527/mirikan0527 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+--👋 Hi, I ’m @ mirikan0527
+I am studying various things.
+--👀 I ’m interested in ... C ++
+--🌱 I ’m currently learning C ++
