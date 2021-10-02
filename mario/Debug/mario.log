@@ -1,0 +1,46 @@
+﻿  Component.cpp
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\dorag\Desktop\mario\Component.h(13): message : 'Component::Component' の宣言を確認してください
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予期しないトークンがありました。関数の本体は無視されます
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
+C:\Users\dorag\Desktop\mario\Component.cpp(5,1): error C2511: 'Component::Component(GameObject *)': オーバーロードされたメンバー関数が 'Component' にありません。
+C:\Users\dorag\Desktop\mario\Component.h(10): message : 'Component' の宣言を確認してください
+C:\Users\dorag\Desktop\mario\Component.cpp(6,2): error C2065: 'm_gameObject': 定義されていない識別子です。
+  GameObject.cpp
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\dorag\Desktop\mario\Component.h(13): message : 'Component::Component' の宣言を確認してください
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予期しないトークンがありました。関数の本体は無視されます
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
+  main.cpp
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\dorag\Desktop\mario\Component.h(13): message : 'Component::Component' の宣言を確認してください
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予期しないトークンがありました。関数の本体は無視されます
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
+C:\Users\dorag\Desktop\mario\main.cpp(6,12): warning C4326: 'main' の戻り値の型には、'int' を使用してください。'void' は使用できません
+  rigidbody.cpp
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
+C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\dorag\Desktop\mario\Component.h(13): message : 'Component::Component' の宣言を確認してください
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(22,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予期しないトークンがありました。関数の本体は無視されます
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
+C:\Users\dorag\Desktop\mario\rigidbody.cpp(32,44): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+  コードを生成中...
