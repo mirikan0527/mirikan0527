@@ -21,7 +21,7 @@ C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予�
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
 C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
-  main.cpp
+  Quaternion.cpp
 C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
 C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
 C:\Users\dorag\Desktop\mario\Component.h(13): message : 'Component::Component' の宣言を確認してください
@@ -31,7 +31,12 @@ C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予�
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
 C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
-C:\Users\dorag\Desktop\mario\main.cpp(6,12): warning C4326: 'main' の戻り値の型には、'int' を使用してください。'void' は使用できません
+C:\Users\dorag\Desktop\mario\Quaternion.h(20,29): error C2499: 'Quaternion': クラスはクラス自体の基底クラスにはなれません。
+C:\Users\dorag\Desktop\mario\Quaternion.cpp(38,47): error C2440: '初期化中': 'initializer list' から 'Quaternion' に変換できません。
+C:\Users\dorag\Desktop\mario\Quaternion.cpp(38,47): message : コンストラクターはソース型を持てません、またはコンストラクターのオーバーロードの解決があいまいです。
+C:\Users\dorag\Desktop\mario\Quaternion.cpp(46,16): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dorag\Desktop\mario\Quaternion.cpp(51,17): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dorag\Desktop\mario\Quaternion.cpp(52,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
   rigidbody.cpp
 C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2061: 構文エラー: 識別子 'GameObject'
 C:\Users\dorag\Desktop\mario\Component.h(14,11): error C2535: 'Component::Component(void)': メンバー関数は、既に定義または宣言されています。
@@ -42,5 +47,6 @@ C:\Users\dorag\Desktop\mario\Component.h(22,30): error C2334: '{' の前に予�
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C2143: 構文エラー: ';' が '*' の前にありません。
 C:\Users\dorag\Desktop\mario\Component.h(24,12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
 C:\Users\dorag\Desktop\mario\Component.h(24,26): error C2238: ';' の前に無効なトークンがあります。
-C:\Users\dorag\Desktop\mario\rigidbody.cpp(32,44): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\dorag\Desktop\mario\rigidbody.cpp(68,49): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  XAudio2.cpp
   コードを生成中...
